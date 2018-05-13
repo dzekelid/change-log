@@ -16,15 +16,15 @@ modified: "2018-05-13"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/change-log/master/_listings/google-doubleclick/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Google Doubleclick API Get Change Logs
-  description: Retrieves a list of change logs. This method supports paging.
+- name: Google Doubleclick API Get Change Log
+  description: Gets one change log by ID.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-double-click.png
   humanURL: https://www.doubleclickbygoogle.com/
   baseURL: https://{host}//
   tags: Change Log
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/change-log/master/_listings/google-doubleclick/userprofiles-profileid-changelogs-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/change-log/master/_listings/google-doubleclick/userprofiles-profileid-changelogs-id-get.md
 x-common:
 - type: x-authentication
   url: https://developers.google.com/ad-exchange/buyer-rest/auth-guide
